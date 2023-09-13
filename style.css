@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.hero, .footer {
+  background-color: #1f2937;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header p, .header-navigation ul {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-navigation h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-btn, .cta {
+  background-color: #3882f6;
+}
+
+.information-section h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1f2937;
+}
