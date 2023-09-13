@@ -11,6 +11,30 @@ body {
   font-size: 16px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  padding: 16px 350px;
+  height: 550px;
+}
+
+.header-navigation, .header-navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navigation ul {
+  gap: 32px;
+}
+
+.header-navigation {
+  margin-bottom: 125px;
+}
+
 .hero, .footer {
   background-color: #1f2937;
 }
@@ -21,9 +45,13 @@ body {
   color: #f9faf8;
 }
 
-.header p, .header-navigation ul {
+.header p, .header-navigation a {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.header-navigation a {
+  text-decoration: none;
 }
 
 .header-navigation h1 {
@@ -31,8 +59,39 @@ body {
   color: #f9faf8;
 }
 
+.header-navigation li {
+  list-style: none;
+}
+
 .header-btn, .cta {
   background-color: #3882f6;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header-content img {
+  height: 250px;
+  width: 650px;
+}
+
+.btn {
+  width: 100px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  color: #e5e7eb;
+  font-weight: 900;
+  outline: none;
 }
 
 .information-section h1 {
