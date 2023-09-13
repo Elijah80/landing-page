@@ -9,6 +9,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  letter-spacing: .5px;
 }
 
 .container {
@@ -87,11 +88,14 @@ body {
 .btn {
   width: 100px;
   padding: 10px 0;
-  border: none;
   border-radius: 5px;
+  outline: none;
+}
+
+.header-btn {
+  border: none;
   color: #e5e7eb;
   font-weight: 900;
-  outline: none;
 }
 
 .information-section h1 {
