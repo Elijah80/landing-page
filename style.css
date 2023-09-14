@@ -38,9 +38,6 @@ body {
   background-color: #3882f6;
 }
 
-
-/*** Hero Section ***/
-
 .hero {
   padding: 16px 350px;
   height: 550px;
@@ -158,6 +155,11 @@ body {
 
 .quote-section {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
 }
 
 .quote {
@@ -165,6 +167,14 @@ body {
   font-weight: 100;
   font-style: italic;
   color: #1f2937;
+  width: 850px;
+}
+
+.author {
+  align-self: flex-end;
+  margin-right: 575px;
+  font-weight: 900;
+  font-size: 24px;
 }
 
 
