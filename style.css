@@ -21,9 +21,10 @@ body {
 /*** Standard Button Sizing ***/
 
 .btn {
-  width: 100px;
+  width: 125px;
   padding: 10px 0;
   border-radius: 5px;
+  border-style: solid;
   outline: none;
 }
 
@@ -180,5 +181,32 @@ body {
 
 /*** CTA Section ***/
 
+.cta-section {
+  padding: 150px 350px;
+}
+
+.cta {
+  padding: 50px 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-content h2 {
+  color: #f9faf8;
+  margin-bottom: 5px;
+}
+
+.cta-content p {
+  color: #e5e7eb;
+}
+
+.cta-btn {
+  background-color: transparent;
+  border-color: #f9faf8;
+  color: #f9faf8;
+  font-weight: 900;
+}
 
 /*** Footer Section ***/
