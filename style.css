@@ -74,7 +74,7 @@ body {
 }
 
 .header {
-  width: 325px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -98,10 +98,41 @@ body {
   font-weight: 900;
 }
 
+.information-section {
+  text-align: center;
+  margin-bottom: 125px;
+}
+
 .information-section h1 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  margin: 46px 0;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+}
+
+.card p {
+  width: 200px;
 }
 
 .quote-section {
