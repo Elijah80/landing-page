@@ -17,10 +17,37 @@ body {
   flex-direction: column;
 }
 
+
+/*** Standard Button Sizing ***/
+
+.btn {
+  width: 100px;
+  padding: 10px 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+/*** Multi-section Shared ***/
+
+.hero, .footer {
+  background-color: #1f2937;
+}
+
+.header-btn, .cta {
+  background-color: #3882f6;
+}
+
+
+/*** Hero Section ***/
+
 .hero {
   padding: 16px 350px;
   height: 550px;
 }
+
+
+/*** Header Section ***/
 
 .header-navigation, .header-navigation ul {
   display: flex;
@@ -34,10 +61,6 @@ body {
 
 .header-navigation {
   margin-bottom: 125px;
-}
-
-.hero, .footer {
-  background-color: #1f2937;
 }
 
 .header h1 {
@@ -64,10 +87,6 @@ body {
   list-style: none;
 }
 
-.header-btn, .cta {
-  background-color: #3882f6;
-}
-
 .header-content {
   display: flex;
   justify-content: space-between;
@@ -85,18 +104,14 @@ body {
   width: 650px;
 }
 
-.btn {
-  width: 100px;
-  padding: 10px 0;
-  border-radius: 5px;
-  outline: none;
-}
-
 .header-btn {
   border: none;
   color: #e5e7eb;
   font-weight: 900;
 }
+
+
+/*** Information Section ***/
 
 .information-section {
   text-align: center;
@@ -109,6 +124,9 @@ body {
   color: #1f2937;
   margin: 46px 0;
 }
+
+
+/*** Card Content ***/
 
 .card-content {
   display: flex;
@@ -135,6 +153,9 @@ body {
   width: 200px;
 }
 
+
+/*** Quote Section ***/
+
 .quote-section {
   background-color: #e5e7eb;
 }
@@ -145,3 +166,9 @@ body {
   font-style: italic;
   color: #1f2937;
 }
+
+
+/*** CTA Section ***/
+
+
+/*** Footer Section ***/
